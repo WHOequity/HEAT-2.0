@@ -3,8 +3,8 @@
 
 HEAT was developed to facilitate the assessment of within-country health 
 inequalities across countries. Inequalities can be assessed using disaggregated 
-data and summary measures, that are presented in interactive tables and graphs. 
-Customized results can be exported and saved in different formats. 
+data and summary measures, that are presented in customized tables and graphs. 
+Results can be exported and saved in different formats. 
 
 
 #### COPYRIGHT
