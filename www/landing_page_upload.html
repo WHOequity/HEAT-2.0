@@ -1,0 +1,125 @@
+<!--
+© Copyright World Health Organization (WHO) 2016.
+This file is part of the Health Equity Assessment Toolkit (HEAT).
+HEAT is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License Version 2 as published by
+the Free Software Foundation.
+
+HEAT is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with HEAT. If not, see http://www.gnu.org/licenses/.
+-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({
+        placement : 'right'
+    });
+});
+//$(document).ready(function() {
+//   $("#myModal").modal('show');
+// $("#modal-license").load("license_agreement.html");
+//});
+</script>
+<!-- 
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Terms of use and software license agreement</h4>
+            </div>
+            <div class="modal-body" >
+            <div id="modal-license">
+                
+                </div>
+                <button type="submit" class="btn btn-primary" data-dismiss="modal">I accept</button>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<div id="backimg-upload">
+    <!--<div class="container backimg">-->
+    <div class="row belowbars">
+        <div class="row belowbars">
+            <div class="col-xs-8 col-xs-offset-2 text-center">
+                <div class="jumbotron welltrans">
+				<h1 class="landing">Health Equity Assessment Toolkit Plus</h1>
+				<h1 class="landing">(<span class="subhead">HEAT Plus</span>)</h1>
+                    <p class="lead"> HEAT Plus enables the exploration and comparison of within&#8209;country health inequalities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <div class="col-sm-12" id = "download-well">
+                    <div class="well col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+					{{busyindicator}}
+					
+					
+						<h4 class="text-center"><strong><em>To get started</em>, upload a new database or open an existing database.</strong></h4>
+                        
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-4">
+							  
+								<div id="neworexisting" class="form-group shiny-input-radiogroup shiny-input-container shiny-bound-input">
+								<label class="control-label" for="neworexisting"></label>
+								<div class="shiny-options-group control-group">
+									<label class = "radio control control-radio">
+										<input type="radio" name="neworexisting" value="newdata" checked="checked">
+										<span class="control-text">Upload new database&nbsp;&nbsp;</span>
+										<div class="control__indicator"></div>
+									</label>
+								
+									<label class = "radio control control-radio">
+										<input type="radio" name="neworexisting" value="existdata">
+										<span class="control-text">Open existing database</span>
+										<div class="control__indicator"></div>
+									</label>
+								</div>
+							</div>
+						</div>
+						</div>
+						<!--<div class="col-xs-1 col-sm-3 col-md-3 col-lg-2"></div>-->
+						<!--</div>-->
+						
+					
+		
+
+						
+						
+						
+						<div id="upload-browse">
+							{{ui_landing_uploadnew}} {{ui_landing_foldersel}}
+						</div>
+						
+
+                        <div class="text-center">
+                            <button id="doUploadBtn"  type="button" class="btn btn-primary action-button btn-lg">Upload database</button>
+                        </div>
+						
+						<div id="table_result" class="shiny-html-output text-center"></div>
+						
+                    </div>
+                </div>
+				
+				
+                <div class="col-sm-12">
+                    <p class="citation"><em><b>Suggested citation</b>: Health Equity Assessment Toolkit Plus (HEAT Plus): Software for exploring and comparing health inequalities in countries. Upload database edition. Version 1.0. Geneva, World Health Organization, 2017.</em></p>
+					
+					<p class="citation">WHO provides this toolkit without data, and all data added to, or resulting from, the toolkit are the sole responsibility of the user, not WHO.</p>
+					<br>
+
+
+					<!-- <div class="text-center"><img src = "who_logo_blue.png"/></div> -->
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>

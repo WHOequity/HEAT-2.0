@@ -1,0 +1,83 @@
+.box {
+  float: left;
+  min-height: 1px;
+  padding-right: 0px;
+}
+
+.titlehc {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+      font-size: 18px;
+    font-weight: bold;
+}
+
+.facet {
+  font-size: 0.8em;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  color: #606060;
+}
+
+/*This is the indicator title*/
+.facetind {
+  /*margin-top: 45px;*/
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+    padding: 5px;
+    color: #696363;
+    border-radius: 10px;
+
+}
+
+/*This is the dimension title*/
+.facetdim {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+  font-weight: bold;
+          color: #696363;
+          margin-right:3%;
+}
+
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.chartbox{
+   /* border-style: dotted;
+    border-width: 0.5px;*/
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.titlex{
+  font-size: 15px;
+  font-weight: normal;
+  font-family: Roboto;
+}
+
+.highcharts-tooltip span {
+  height:auto !important;
+  width:140px !important;
+  max-width:140px !important;
+  overflow:auto !important;
+  white-space:normal !important; 
+}
+
+
+
+
+.tooltip-bold-bigger{
+  font-weight:900;
+  font-size: 1.1em;
+}
+
+.tooltip-bold{
+  font-weight:900;
+  font-size: 1.1em;
+}
+
